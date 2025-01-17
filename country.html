@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800" rel="stylesheet" />
+    <script src="/country.js" defer></script>   
+    <link rel="stylesheet" href="style.css">
+    <title>country</title>
+</head>
+<body>
+    <div class="top-part">
+        <header>
+            <h1>Where in the world?</h1>
+            <div class="mode" >
+                <i class="fa-regular fa-moon"></i>
+                <p>Dark Mode</p>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="flag">
+            <span  class="back"  onclick="history.back()"><i class="fa-solid fa-arrow-left left-arrow"></i>Back</span>       
+            <img src="https://flagcdn.com/ck.svg" alt="">
+        </div>
+        <div class="country-text">
+            <h1 id="country-name">Belgium</h1>
+            <div class="more-text">
+                <div class="part-one">
+                    <p>Native name:<span id="nat-name"></span></p>
+                    <p>Population:<span id="pop"></span></p>
+                    <p>region:<span id="reg"></span></p>
+                    <p>Sub-region:<span id="sbreg"></span></p>
+                    <p>Capital:<span id="cap"></span></p>
+                </div>
+                <div class="part-two">
+                    <p>Top Level Domain:<span id="dom"></span></p>
+                    <p>Currencies:<span id="cur"></span></p>
+                    <p>Languages:<span id="lan"></span></p>
+                </div>
+
+            </div>
+
+            <div class="border-countries">
+                <p id="bor">Border Countries:</p>
+                <div class="bor">
+                    
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
